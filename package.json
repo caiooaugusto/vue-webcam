@@ -1,26 +1,110 @@
 {
+  "_args": [
+    [
+      {
+        "raw": "vue-webcam",
+        "scope": null,
+        "escapedName": "vue-webcam",
+        "name": "vue-webcam",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Caio\\projects\\fisherbook\\app"
+    ]
+  ],
+  "_from": "vue-webcam@latest",
+  "_id": "vue-webcam@2.0.4",
+  "_inCache": true,
+  "_location": "/vue-webcam",
+  "_nodeVersion": "5.5.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/vue-webcam-2.0.4.tgz_1476092519789_0.28720922325737774"
+  },
+  "_npmUser": {
+    "name": "smronju",
+    "email": "smronju@gmail.com"
+  },
+  "_npmVersion": "3.3.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "vue-webcam",
+    "scope": null,
+    "escapedName": "vue-webcam",
     "name": "vue-webcam",
-    "version": "2.0.4",
-    "description": "A Vue component for capturing image from webcam.",
-    "main": "VueWebcam.min.js",
-    "keywords": [
-        "vue",
-        "vuejs",
-        "webcam",
-        "stream",
-        "component"
-    ],
-    "author": {
-        "name": "Mohammad Shoriful Islam Ronju",
-        "email": "smronju@gmail.com",
-        "url": "https://github.com/smronju"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/smronju/vue-webcam"
-    },
-    "license": "MIT",
-    "peerDependencies": {
-        "vue": ">=2.0.0"
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-webcam/-/vue-webcam-2.0.4.tgz",
+  "_shasum": "b198ed693d828f4b08eb8c47d3203736f6d28092",
+  "_shrinkwrap": null,
+  "_spec": "vue-webcam",
+  "_where": "C:\\Caio\\projects\\fisherbook\\app",
+  "author": {
+    "name": "Mohammad Shoriful Islam Ronju",
+    "email": "smronju@gmail.com",
+    "url": "https://github.com/smronju"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "babili"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/smronju/vue-webcam/issues"
+  },
+  "dependencies": {},
+  "description": "A Vue component for capturing image from webcam.",
+  "devDependencies": {
+      "babel-cli": "^6.18.0",
+      "babel-preset-babili": "0.0.9",
+      "babel-preset-es2015": "^6.18.0",
+      "eslint": "^3.11.1",
+      "eslint-config-vue": "^2.0.1",
+      "eslint-plugin-vue": "^1.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "b198ed693d828f4b08eb8c47d3203736f6d28092",
+    "tarball": "https://registry.npmjs.org/vue-webcam/-/vue-webcam-2.0.4.tgz"
+  },
+  "eslintConfig": {
+    "extends": "vue"
+  },
+  "gitHead": "0993e753031385520d4a98b9ee892c1a7b1601dd",
+  "homepage": "https://github.com/smronju/vue-webcam#readme",
+  "keywords": [
+    "vue",
+    "vuejs",
+    "webcam",
+    "stream",
+    "component"
+  ],
+  "license": "MIT",
+  "main": "VueWebcam.js",
+  "maintainers": [
+    {
+      "name": "smronju",
+      "email": "smronju@gmail.com"
     }
+  ],
+  "name": "vue-webcam",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "vue": ">=2.0.0"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smronju/vue-webcam.git"
+  },
+  "scripts": {},
+  "version": "2.0.4"
 }
