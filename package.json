@@ -11,9 +11,30 @@
         "type": "tag"
       },
       "C:\\Caio\\projects\\fisherbook\\app"
+    ],
+    [
+      {
+        "raw": "https://github.com/caiooaugusto/vue-webcam",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "https://github.com/caiooaugusto/vue-webcam",
+        "spec": "git+https://github.com/caiooaugusto/vue-webcam.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:caiooaugusto/vue-webcam.git",
+          "sshUrl": "git+ssh://git@github.com/caiooaugusto/vue-webcam.git",
+          "httpsUrl": "git+https://github.com/caiooaugusto/vue-webcam.git",
+          "gitUrl": "git://github.com/caiooaugusto/vue-webcam.git",
+          "shortcut": "github:caiooaugusto/vue-webcam",
+          "directUrl": "https://raw.githubusercontent.com/caiooaugusto/vue-webcam/master/package.json"
+        }
+      },
+      "C:\\Caio\\projects\\fisherbook\\app"
     ]
   ],
-  "_from": "vue-webcam@latest",
+  "_from": "git+https://github.com/caiooaugusto/vue-webcam.git",
   "_id": "vue-webcam@2.0.4",
   "_inCache": true,
   "_location": "/vue-webcam",
@@ -29,27 +50,42 @@
   "_npmVersion": "3.3.12",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "vue-webcam",
+    "raw": "https://github.com/caiooaugusto/vue-webcam",
     "scope": null,
     "escapedName": "vue-webcam",
     "name": "vue-webcam",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
+    "rawSpec": "https://github.com/caiooaugusto/vue-webcam",
+    "spec": "git+https://github.com/caiooaugusto/vue-webcam.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:caiooaugusto/vue-webcam.git",
+      "sshUrl": "git+ssh://git@github.com/caiooaugusto/vue-webcam.git",
+      "httpsUrl": "git+https://github.com/caiooaugusto/vue-webcam.git",
+      "gitUrl": "git://github.com/caiooaugusto/vue-webcam.git",
+      "shortcut": "github:caiooaugusto/vue-webcam",
+      "directUrl": "https://raw.githubusercontent.com/caiooaugusto/vue-webcam/master/package.json"
+    }
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/vue-webcam/-/vue-webcam-2.0.4.tgz",
-  "_shasum": "b198ed693d828f4b08eb8c47d3203736f6d28092",
+  "_resolved": "git+https://github.com/caiooaugusto/vue-webcam.git#4583d5da30bb38e3f475b83dfe75147f9021bcfe",
+  "_shasum": "4e2a17ecac93f60e136f3f2496000284eb2f6aa9",
   "_shrinkwrap": null,
-  "_spec": "vue-webcam",
+  "_spec": "https://github.com/caiooaugusto/vue-webcam",
   "_where": "C:\\Caio\\projects\\fisherbook\\app",
   "author": {
     "name": "Mohammad Shoriful Islam Ronju",
     "email": "smronju@gmail.com",
     "url": "https://github.com/smronju"
+  },
+  "browserify": {
+    "transform": [
+      "babelify",
+      "vueify"
+    ]
   },
   "babel": {
     "presets": [
@@ -60,15 +96,48 @@
   "bugs": {
     "url": "https://github.com/smronju/vue-webcam/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-runtime": "^5.8.0"
+  },
   "description": "A Vue component for capturing image from webcam.",
   "devDependencies": {
-      "babel-cli": "^6.18.0",
-      "babel-preset-babili": "0.0.9",
-      "babel-preset-es2015": "^6.18.0",
-      "eslint": "^3.11.1",
-      "eslint-config-vue": "^2.0.1",
-      "eslint-plugin-vue": "^1.0.0"
+    "babel-cli": "^6.18.0",
+    "babel-preset-babili": "0.0.9",
+    "babel-preset-es2015": "^6.18.0",
+    "eslint": "^3.11.1",
+    "eslint-config-vue": "^2.0.1",
+    "eslint-plugin-vue": "^1.0.0",
+    "babel-core": "^6.18.0",
+    "babel-loader": "^6.1.0",
+    "babel-preset-stage-0": "^6.1.2",
+    "babel-preset-stage-2": "^6.22.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "babel-runtime": "^5.8.0",
+    "cross-env": "^1.0.8",
+    "css-loader": "^0.23.0",
+    "eslint-config-standard": "^7.0.1",
+    "eslint-plugin-html": "^2.0.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1",
+    "file-loader": "^0.8.4",
+    "gh-pages": "^0.11.0",
+    "jsdom": "^9.8.3",
+    "lab": "^11.1.0",
+    "lab-babel": "^1.1.1",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.2",
+    "shx": "^0.2.0",
+    "style-loader": "^0.13.0",
+    "stylus-loader": "^1.4.0",
+    "template-html-loader": "0.0.3",
+    "vue": "^2.2.1",
+    "vue-hot-reload-api": "^1.2.0",
+    "vue-html-loader": "^1.0.0",
+    "vue-loader": "^11.1.3",
+    "vue-template-compiler": "^2.1.6",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
   },
   "directories": {},
   "dist": {
@@ -88,7 +157,7 @@
     "component"
   ],
   "license": "MIT",
-  "main": "VueWebcam.js",
+  "main": "src/main.js",
   "maintainers": [
     {
       "name": "smronju",
